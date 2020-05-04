@@ -8,5 +8,5 @@ arr << number*number
 
 end
 puts arr
-puts square_array
+
 end
