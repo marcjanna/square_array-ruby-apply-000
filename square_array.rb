@@ -7,6 +7,6 @@ arr << number*number
 
 
 end
+puts arr
 
 end
-puts arr
