@@ -1,15 +1,12 @@
 def square_array(numbers)
   # your code here
-
+numbers = [1,2,3]
+new_array = []
 numbers.each do |number|
-puts "#{number * number}"
+new_array << number*number
 
 
 end
 
 end
-numbers =[1,2,3]
-square_array(numbers)
-
-numbers.collect {|number| number * number}
-square_array(numbers)
+puts new_array
