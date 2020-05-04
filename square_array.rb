@@ -1,11 +1,9 @@
 def square_array(numbers)
   # your code here
 numbers = [1,2,3]
-Array.new(len,val)
- = []
+arr = []
 numbers.each do |number|
-Array.new(len,val)
- << number*number
+arr << number*number
 
 
 end
