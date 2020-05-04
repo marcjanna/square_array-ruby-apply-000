@@ -1,12 +1,12 @@
 def square_array(numbers)
   # your code here
 numbers = [1,2,3]
-arr = []
+new_numbers = []
 numbers.each do |number|
-arr << number*number
+new_numbers << number*number
 
 
 end
-puts arr
+puts new_numbers
 
 end
